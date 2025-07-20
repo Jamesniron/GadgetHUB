@@ -1,6 +1,7 @@
 ﻿using Backend.Dbcontext;
 using Backend.Entity;
 using Backend.Interface;
+using Microsoft.AspNetCore.Http.Metadata;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.Contracts;
 
@@ -27,6 +28,12 @@ namespace Backend.Repository
         {
             var products = await _setting.Product.ToListAsync();
             return products;
+        }
+
+       public async Task<Product> ProductById(Guid Id)
+        {
+            var getproduct = await _setting.Product.FindAsync(Id);
+            return getproduct;
         }
     }
 }

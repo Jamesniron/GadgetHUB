@@ -29,5 +29,10 @@ namespace Backend.Service
     {
       return await _iproduct.UpdateProductAsync(Id, product);
     }
+
+    public async Task<bool> DeleteProduct(Guid Id)
+    {
+      return await _iproduct.DeleteProduct(Id);
+    }
   }
 }

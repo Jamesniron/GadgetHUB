@@ -318,7 +318,6 @@ C:\Users\User\Desktop\Niron\GadgetHUB\Backend\bin\Debug\net8.0\runtimes\win\lib\
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\Backend.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\rpswa.dswa.cache.json
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\Backend.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\Backend.AssemblyInfo.cs
@@ -326,12 +325,8 @@ C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\Backend.csproj.Co
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\Backend.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\Backend.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\Backend.sourcelink.json
-C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\rjimswa.dswa.cache.json
-C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
-C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\scopedcss\bundle\Backend.styles.css
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
@@ -341,3 +336,9 @@ C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\refint\Backend.dl
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\Backend.pdb
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\Backend.genruntimeconfig.cache
 C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\ref\Backend.dll
+C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\staticwebassets\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\staticwebassets\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\staticwebassets\msbuild.build.Backend.props
+C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Backend.props
+C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Backend.props
+C:\Users\User\Desktop\Niron\GadgetHUB\Backend\obj\Debug\net8.0\staticwebassets.pack.json

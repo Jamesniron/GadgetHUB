@@ -8,5 +8,6 @@ namespace Backend.Interface
     Task<List<Product>> AllProductAsync();
     Task<Product> ProductById(Guid Id);
     Task<Product> UpdateProductAsync(Guid Id, Product product);
+    Task<bool> DeleteProduct(Guid Id);
   }
 }

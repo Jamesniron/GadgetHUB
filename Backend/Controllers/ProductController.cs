@@ -39,5 +39,11 @@ namespace Backend.Controllers
     {
       return Ok(await _product.UpdateProduct(Id, product));
     }
+
+    [HttpDelete("Id")]
+    public async Task<IActionResult> DeleteProduct(Guid Id)
+    {
+      return Ok(await _product.DeleteProduct(Id));
+    }
   }
 }

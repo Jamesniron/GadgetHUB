@@ -30,20 +30,28 @@ namespace Backend.Repository
 
     public async Task<Product> ProductById(Guid Id)
     {
-      var getproduct = await _setting.Product.FindAsync(Id);
+      Product? getproduct = await _setting.Product.FindAsync(Id);
+      if (getproduct == null) throw new Exception("Product not found");
       return getproduct;
     }
 
     public async Task<Product> UpdateProductAsync(Guid Id, Product product)
     {
-      Product? findProduct = await _setting.Product.FindAsync(Id);
-      if (findProduct == null) throw new Exception("Product not found");
+      var findProduct = await ProductById(Id);
       findProduct.Name = product.Name;
       findProduct.Description = product.Description;
       findProduct.Price = product.Price;
       await _setting.SaveChangesAsync();
-
       return await ProductById(Id);
+    }
+
+    public async Task<bool> DeleteProduct(Guid Id)
+    {
+      var product = await ProductById(Id);
+      _setting.Product.Remove(product);
+      int result = await _setting.SaveChangesAsync();
+      if (result == 1) return true;
+      return false;
     }
   }
 }

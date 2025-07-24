@@ -14,16 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProductsRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Niron\\GadgetHUB\\Backend\\Repository\\ProductsRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repository\\ProductsRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Niron\\GadgetHUB\\Backend\\Repository\\ProductsRepository.cs*",
-              "RelativeToolTip": "Backend\\Repository\\ProductsRepository.cs*",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Niron\\GadgetHUB\\Backend\\Repository\\ProductsRepository.cs",
+              "RelativeToolTip": "Backend\\Repository\\ProductsRepository.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAACAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T07:45:51.195Z",

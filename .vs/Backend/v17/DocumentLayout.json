@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\james c#\\gadgethub\\backend\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\james c#\\gadgethub\\backend\\migrations\\20250720061729_iitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\migrations\\20250720061729_iitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\james c#\\gadgethub\\backend\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\james c#\\gadgethub\\backend\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,13 +66,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "20250720061729_iitial.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\Backend\\Migrations\\20250720061729_iitial.cs",
               "RelativeDocumentMoniker": "Backend\\Migrations\\20250720061729_iitial.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\Backend\\Migrations\\20250720061729_iitial.cs",
               "RelativeToolTip": "Backend\\Migrations\\20250720061729_iitial.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T05:06:48.603Z",
               "EditorCaption": ""
@@ -80,32 +80,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\client page\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "client page\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\client page\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "client page\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\client page\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "client page\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\client page\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "client page\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-25T04:25:21.167Z",
+              "WhenOpened": "2025-07-25T04:22:12.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\client page\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "client page\\Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\client page\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "client page\\Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-25T04:25:18.076Z",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\Backend\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "Backend\\Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\Backend\\Service\\ProductService.cs",
+              "RelativeToolTip": "Backend\\Service\\ProductService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwCAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T08:45:14.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Startup.Auth.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\client page\\App_Start\\Startup.Auth.cs",
               "RelativeDocumentMoniker": "client page\\App_Start\\Startup.Auth.cs",
@@ -118,15 +118,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\client page\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "client page\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\client page\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "client page\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\client page\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "client page\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\client page\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "client page\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-25T04:22:12.6Z",
+              "WhenOpened": "2025-07-25T04:25:18.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\client page\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "client page\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\client page\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "client page\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T04:25:21.167Z",
               "EditorCaption": ""
             },
             {
@@ -156,18 +169,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\Backend\\Service\\ProductService.cs",
-              "RelativeDocumentMoniker": "Backend\\Service\\ProductService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\Backend\\Service\\ProductService.cs",
-              "RelativeToolTip": "Backend\\Service\\ProductService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAmwCAAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T08:45:14.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "IproductRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\Backend\\Interface\\IproductRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Interface\\IproductRepository.cs",
@@ -179,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProductsRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\james c#\\GadgetHUB\\Backend\\Repository\\ProductsRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repository\\ProductsRepository.cs",

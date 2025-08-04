@@ -33,5 +33,16 @@ namespace Backend.Service
     {
       return await _iuserRepo.LoginUser(email, password);
     }
+
+    public async Task<List<User>> GetAllUsers()
+    {
+      return await _iuserRepo.GetAllUser();
+    }
+
+    public async Task<bool> DeleteUser(Guid id)
+    {
+      return await _iuserRepo.DeleteUser(id);
+    }
+
   }
 }

@@ -31,5 +31,17 @@ namespace Backend.Controllers
     {
       return Ok(await _user.GetUserById(Id));
     }
+
+    [HttpGet]
+    public async Task<IActionResult> GetAllUsers()
+    {
+      return Ok(await _user.GetAllUsers());
+    }
+
+    [HttpDelete]
+    public async Task<IActionResult> DeleteUser(Guid Id)
+    {
+      return Ok(await _user.DeleteUser(Id));
+    }
   }
 }

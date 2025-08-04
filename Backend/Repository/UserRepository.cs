@@ -44,5 +44,25 @@ namespace Backend.Repository
       if (getUser == null) throw new Exception("user not found");
       return getUser;
     }
+
+    //get all user
+    public async Task<List<User>> GetAllUser()
+    {
+      var AllUsers = await _DbContext.User.ToListAsync();
+      return AllUsers;
+    }
+
+    public async Task<bool> DeleteUser(Guid Id)
+    {
+      User? finduser = await _DbContext.User.FindAsync(Id);
+      if (finduser == null)
+        return false;
+
+      _DbContext.User.Remove(finduser);
+      var save = await _DbContext.SaveChangesAsync();
+
+      return save > 0;
+    }
+
   }
 }

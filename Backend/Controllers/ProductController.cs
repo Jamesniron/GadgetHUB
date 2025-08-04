@@ -29,7 +29,7 @@ namespace Backend.Controllers
       return Ok(data);
     }
 
-    [HttpGet("Id")]
+    [HttpGet("{Id}")]
     public async Task<IActionResult> GetProductById(Guid Id)
     {
       return Ok(await _product.GetProductById(Id));

@@ -24,13 +24,17 @@ namespace Backend.Repository
 
     public async Task<List<Product>> AllProductAsync()
     {
-      var products = await _setting.Product.ToListAsync();
+      var products = await _setting.Product
+        .Include(p => p.ImageUrl)
+        .ToListAsync();
       return products;
     }
 
     public async Task<Product> ProductById(Guid Id)
     {
-      Product? getproduct = await _setting.Product.FindAsync(Id);
+      Product? getproduct = await _setting.Product
+        .Include(p => p.ImageUrl)
+        .FirstOrDefaultAsync(p => p.Id == Id);
       if (getproduct == null) throw new Exception("Product not found");
       return getproduct;
     }

@@ -74,7 +74,7 @@
         }
       }
     },
-    "/api/Product/Id": {
+    "/api/Product/{Id}": {
       "get": {
         "tags": [
           "Product"
@@ -82,7 +82,8 @@
         "parameters": [
           {
             "name": "Id",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "string",
               "format": "uuid"
@@ -94,7 +95,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Product/Id": {
       "put": {
         "tags": [
           "Product"

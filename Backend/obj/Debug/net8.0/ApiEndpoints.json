@@ -43,7 +43,7 @@
   {
     "ContainingType": "Backend.Controllers.ProductController",
     "Method": "GetProductById",
-    "RelativePath": "api/Product/Id",
+    "RelativePath": "api/Product/{Id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -51,7 +51,7 @@
       {
         "Name": "Id",
         "Type": "System.Guid",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

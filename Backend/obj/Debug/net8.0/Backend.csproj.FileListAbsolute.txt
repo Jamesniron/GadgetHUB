@@ -687,3 +687,5 @@ C:\Users\User\Desktop\Extranel\Niron\GadgetHUB\Backend\obj\Debug\net8.0\refint\B
 C:\Users\User\Desktop\Extranel\Niron\GadgetHUB\Backend\obj\Debug\net8.0\Backend.pdb
 C:\Users\User\Desktop\Extranel\Niron\GadgetHUB\Backend\obj\Debug\net8.0\Backend.genruntimeconfig.cache
 C:\Users\User\Desktop\Extranel\Niron\GadgetHUB\Backend\obj\Debug\net8.0\ref\Backend.dll
+C:\Users\User\Desktop\Extranel\Niron\GadgetHUB\Backend\bin\Debug\net8.0\CloudinaryDotNet.dll
+C:\Users\User\Desktop\Extranel\Niron\GadgetHUB\Backend\bin\Debug\net8.0\Newtonsoft.Json.dll

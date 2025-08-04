@@ -1,4 +1,5 @@
-﻿using Backend.Entity;
+﻿using Backend.DTO;
+using Backend.Entity;
 using Backend.Interface;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,7 +16,7 @@ namespace Backend.Controllers
     }
 
     [HttpPost]
-    public async Task<IActionResult> AddProduct(Product product)
+    public async Task<IActionResult> AddProduct(CreateProductDTO product)
     {
       var data = await _product.AddProduct(product);
       return Ok(data);

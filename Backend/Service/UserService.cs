@@ -18,7 +18,8 @@ namespace Backend.Service
       {
         Name = user.Name,
         Email = user.Email,
-        Password = user.Password
+        Password = user.Password,
+        role = user.Role
       };
       var adduser = await _iuserRepo.CreateUserAccount(Mapuser);
       return adduser;
@@ -29,9 +30,9 @@ namespace Backend.Service
       return await _iuserRepo.GetUserById(Id);
     }
 
-    public async Task<User> LoginUser(string email, string password)
+    public async Task<User> LoginUser(LoginRequest login)
     {
-      return await _iuserRepo.LoginUser(email, password);
+      return await _iuserRepo.LoginUser(login);
     }
 
     public async Task<List<User>> GetAllUsers()

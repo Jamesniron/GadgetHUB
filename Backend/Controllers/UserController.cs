@@ -21,9 +21,9 @@ namespace Backend.Controllers
     }
 
     [HttpPost("login")]
-    public async Task<IActionResult> UserLogn(string email, string password)
+    public async Task<IActionResult> UserLogn([FromBody] LoginRequest login)
     {
-      return Ok(await _user.LoginUser(email, password));
+      return Ok(await _user.LoginUser(login));
     }
 
     [HttpGet("{Id}")]

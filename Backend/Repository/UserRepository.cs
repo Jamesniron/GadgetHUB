@@ -1,4 +1,5 @@
 ﻿using Backend.Dbcontext;
+using Backend.DTO;
 using Backend.Entity;
 using Backend.Interface;
 using Microsoft.EntityFrameworkCore;
@@ -22,15 +23,15 @@ namespace Backend.Repository
     }
 
     //Login 
-    public async Task<User> LoginUser(string email, string password)
+    public async Task<User> LoginUser(LoginRequest login)
     {
       var findUser = await _DbContext.User
-        .FirstOrDefaultAsync(u => u.Email == email);
+        .FirstOrDefaultAsync(u => u.Email == login.Email && u.role == login.Role);
 
       if (findUser == null)
         throw new Exception("User not found");
 
-      if (findUser.Password != password)
+      if (findUser.Password != login.Password)
         throw new Exception("Wrong password for the given email");
 
       return findUser;

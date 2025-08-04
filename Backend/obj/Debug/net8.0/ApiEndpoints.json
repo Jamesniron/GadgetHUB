@@ -160,14 +160,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "email",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "password",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "login",
+        "Type": "Backend.DTO.LoginRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

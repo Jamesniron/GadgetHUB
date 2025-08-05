@@ -58,6 +58,22 @@
   },
   {
     "ContainingType": "Backend.Controllers.ProductController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Product/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.ProductController",
     "Method": "UpdateProduct",
     "RelativePath": "api/Product/Id",
     "HttpMethod": "PUT",
@@ -73,22 +89,6 @@
         "Name": "product",
         "Type": "Backend.Entity.Product",
         "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Backend.Controllers.ProductController",
-    "Method": "DeleteProduct",
-    "RelativePath": "api/Product/Id",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Guid",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -121,25 +121,25 @@
   },
   {
     "ContainingType": "Backend.Controllers.UserController",
-    "Method": "DeleteUser",
-    "RelativePath": "api/User",
-    "HttpMethod": "DELETE",
+    "Method": "GetUserById",
+    "RelativePath": "api/User/{Id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "Id",
         "Type": "System.Guid",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "Backend.Controllers.UserController",
-    "Method": "GetUserById",
+    "Method": "DeleteUser",
     "RelativePath": "api/User/{Id}",
-    "HttpMethod": "GET",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [

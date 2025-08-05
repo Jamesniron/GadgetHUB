@@ -38,7 +38,7 @@ namespace Backend.Controllers
       return Ok(await _user.GetAllUsers());
     }
 
-    [HttpDelete]
+    [HttpDelete("{Id}")]
     public async Task<IActionResult> DeleteUser(Guid Id)
     {
       return Ok(await _user.DeleteUser(Id));

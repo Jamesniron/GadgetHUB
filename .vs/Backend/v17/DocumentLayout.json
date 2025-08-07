@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\extranel\\niron\\gadgethub\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\extranel\\niron\\gadgethub\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\extranel\\niron\\gadgethub\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,11 +58,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Bookmark",
@@ -63,6 +75,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Backend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Backend\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-05T12:31:23.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "Backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\appsettings.json",
+              "RelativeToolTip": "Backend\\appsettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-05T12:15:59.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\ProductController.cs",
@@ -70,12 +108,11 @@
               "RelativeToolTip": "Backend\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T03:39:55.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T03:39:55.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\DTO\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Backend\\DTO\\LoginRequest.cs",
@@ -87,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repository\\UserRepository.cs",
@@ -95,12 +132,11 @@
               "RelativeToolTip": "Backend\\Repository\\UserRepository.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAIA6wBkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T18:06:34.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T18:06:34.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Interface\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Interface\\IUserRepository.cs",
@@ -112,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Interface\\IUserService.cs",
               "RelativeDocumentMoniker": "Backend\\Interface\\IUserService.cs",
@@ -124,20 +160,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Controllers\\UserController.cs*",
-              "RelativeToolTip": "Backend\\Controllers\\UserController.cs*",
-              "ViewState": "AgIAABcAAAAAAAAAAAA3wCgAAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T18:05:14.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T18:05:14.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "Backend\\Service\\UserService.cs",
@@ -149,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Entity\\User.cs",
               "RelativeDocumentMoniker": "Backend\\Entity\\User.cs",
@@ -157,12 +192,11 @@
               "RelativeToolTip": "Backend\\Entity\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T17:50:04.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T17:50:04.253Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "20250804175704_addedrole.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Migrations\\20250804175704_addedrole.cs",
               "RelativeDocumentMoniker": "Backend\\Migrations\\20250804175704_addedrole.cs",
@@ -174,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "Backend\\DTO\\UserDTO.cs",

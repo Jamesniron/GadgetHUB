@@ -3,7 +3,9 @@ using Backend.Helpers;
 using Backend.Interface;
 using Backend.Repository;
 using Backend.Service;
+using Backend.Service.MailService;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +16,13 @@ builder.Services.AddControllers()
     .AddJsonOptions(x =>
         x.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+//email config
+builder.Services.Configure<EmailConfig>(builder.Configuration.GetSection("EmailConfig"));
+builder.Services.AddScoped<SendmailService>();
+builder.Services.AddScoped<EmailServiceProvider>();
+
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -34,6 +43,8 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IPhotoService, cloudinaryService>();
 
+
+builder.Services.AddSingleton(sp => sp.GetRequiredService<IOptions<EmailConfig>>().Value);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

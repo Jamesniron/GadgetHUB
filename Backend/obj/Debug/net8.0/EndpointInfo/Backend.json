@@ -159,6 +159,37 @@
         }
       }
     },
+    "/api/SendMail/Send-Mail": {
+      "post": {
+        "tags": [
+          "SendMail"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SendMailRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SendMailRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SendMailRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/User": {
       "post": {
         "tags": [
@@ -317,6 +348,13 @@
   },
   "components": {
     "schemas": {
+      "EmailTypes": {
+        "enum": [
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
       "LoginRequest": {
         "type": "object",
         "properties": {
@@ -399,6 +437,26 @@
         ],
         "type": "integer",
         "format": "int32"
+      },
+      "SendMailRequest": {
+        "required": [
+          "emailTypes"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailTypes": {
+            "$ref": "#/components/schemas/EmailTypes"
+          }
+        },
+        "additionalProperties": false
       },
       "UserDTO": {
         "type": "object",

@@ -94,6 +94,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Backend.Controllers.SendMailController",
+    "Method": "Sendmail",
+    "RelativePath": "api/SendMail/Send-Mail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sendMailRequest",
+        "Type": "Backend.Service.MailService.SendMailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Backend.Controllers.UserController",
     "Method": "CreateUserAccount",
     "RelativePath": "api/User",

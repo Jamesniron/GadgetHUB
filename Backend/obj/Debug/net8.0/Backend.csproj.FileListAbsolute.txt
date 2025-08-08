@@ -688,3 +688,8 @@ C:\Users\User\Desktop\Extranel\Niron\GadgetHUB\Backend\obj\Debug\net8.0\rjimswa.
 C:\Users\User\Desktop\Extranel\Niron\GadgetHUB\Backend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\User\Desktop\Extranel\Niron\GadgetHUB\Backend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 C:\Users\User\Desktop\Extranel\Niron\GadgetHUB\Backend\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\User\Desktop\Extranel\Niron\GadgetHUB\Backend\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\User\Desktop\Extranel\Niron\GadgetHUB\Backend\bin\Debug\net8.0\MailKit.dll
+C:\Users\User\Desktop\Extranel\Niron\GadgetHUB\Backend\bin\Debug\net8.0\MimeKit.dll
+C:\Users\User\Desktop\Extranel\Niron\GadgetHUB\Backend\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\User\Desktop\Extranel\Niron\GadgetHUB\Backend\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

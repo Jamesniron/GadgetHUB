@@ -82,8 +82,7 @@
               "RelativeToolTip": "Backend\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-05T12:31:23.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T12:31:23.633Z"
             },
             {
               "$type": "Document",
@@ -91,9 +90,9 @@
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "Backend\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\appsettings.json",
-              "RelativeToolTip": "Backend\\appsettings.json",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAAkAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\appsettings.json*",
+              "RelativeToolTip": "Backend\\appsettings.json*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-08-05T12:15:59.954Z",
               "EditorCaption": ""

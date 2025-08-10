@@ -61,6 +61,18 @@ namespace Backend.Service
       return await _iproduct.DeleteProduct(Id);
     }
 
-
+    public async Task<List<Product>> SearchProductsAsync(
+      string? term = null,
+      decimal? minPrice = null,
+      decimal? maxPrice = null,
+      string? sortBy = "Name",
+      bool desc = false,
+      int page = 1,
+      int pageSize = 20,
+      CancellationToken ct = default)
+    {
+      return await _iproduct.SearchProductsAsync(
+        term, minPrice, maxPrice, sortBy, desc, page, pageSize, ct);
+    }
   }
 }

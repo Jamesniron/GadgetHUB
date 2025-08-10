@@ -46,5 +46,20 @@ namespace Backend.Controllers
     {
       return Ok(await _product.DeleteProduct(Id));
     }
+
+    [HttpGet("search")]
+    public async Task<IActionResult> SearchProducts(
+      [FromQuery] string? term = null,
+      [FromQuery] decimal? minPrice = null,
+      [FromQuery] decimal? maxPrice = null,
+      [FromQuery] string? sortBy = "Name",
+      [FromQuery] bool desc = false,
+      [FromQuery] int page = 1,
+      [FromQuery] int pageSize = 20,
+      CancellationToken ct = default)
+    {
+      var products = await _product.SearchProductsAsync(term, minPrice, maxPrice, sortBy, desc, page, pageSize, ct);
+      return Ok(products);
+    }
   }
 }

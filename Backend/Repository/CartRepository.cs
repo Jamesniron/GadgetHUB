@@ -32,11 +32,17 @@ namespace Backend.Repository
       await _setting.SaveChangesAsync();
     }
 
-    public async Task<List<Card>> GetCartByUserIdAsync(Guid userId)
+    public async Task<List<Product>> GetCartByUserIdAsync(Guid userId)
     {
-      return await _setting.Cart
-        .Where(c => c.UserId == userId)
-        .ToListAsync();
+      var checkcard = await _setting.Cart
+         .Include(c => c.Product)
+         .Where(c => c.UserId == userId)
+         .ToListAsync();
+      if (checkcard == null || !checkcard.Any())
+      {
+        return new List<Product>();
+      }
+      return checkcard.Select(c => c.Product).ToList();
     }
 
     public async Task<bool> RemoveCardAsync(Guid cardId)

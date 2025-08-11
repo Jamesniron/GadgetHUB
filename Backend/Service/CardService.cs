@@ -20,7 +20,7 @@ namespace Backend.Service
       await _cardRepository.AddToCartAsync(card);
     }
 
-    public async Task<List<Entity.Card>> GetCartByUserIdAsync(Guid userId)
+    public async Task<List<Entity.Product>> GetCartByUserIdAsync(Guid userId)
     {
       return await _cardRepository.GetCartByUserIdAsync(userId);
     }

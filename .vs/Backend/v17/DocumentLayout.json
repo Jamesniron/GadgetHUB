@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\extranel\\niron\\gadgethub\\backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\extranel\\niron\\gadgethub\\backend\\repository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\repository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\extranel\\niron\\gadgethub\\backend\\service\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\service\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\extranel\\niron\\gadgethub\\backend\\entity\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\entity\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\extranel\\niron\\gadgethub\\backend\\interface\\icardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +13,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\extranel\\niron\\gadgethub\\backend\\interface\\icardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\interface\\icardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\extranel\\niron\\gadgethub\\backend\\repository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\repository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\extranel\\niron\\gadgethub\\backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\extranel\\niron\\gadgethub\\backend\\entity\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|solutionrelative:backend\\entity\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80F57D2B-6A68-4394-89AF-E7B2670BE1F8}|Backend\\Backend.csproj|c:\\users\\user\\desktop\\extranel\\niron\\gadgethub\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,64 +90,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\CartController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Controllers\\CartController.cs",
               "RelativeToolTip": "Backend\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAswBEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-11T03:37:04.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ICardService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Interface\\ICardService.cs",
               "RelativeDocumentMoniker": "Backend\\Interface\\ICardService.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Interface\\ICardService.cs",
               "RelativeToolTip": "Backend\\Interface\\ICardService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T03:36:47.976Z"
+              "WhenOpened": "2025-08-11T03:36:47.976Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CardService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Service\\CardService.cs",
               "RelativeDocumentMoniker": "Backend\\Service\\CardService.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Service\\CardService.cs",
               "RelativeToolTip": "Backend\\Service\\CardService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T03:36:07.129Z"
+              "WhenOpened": "2025-08-11T03:36:07.129Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ICardRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Interface\\ICardRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Interface\\ICardRepository.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Interface\\ICardRepository.cs",
               "RelativeToolTip": "Backend\\Interface\\ICardRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T03:35:22.876Z"
+              "WhenOpened": "2025-08-11T03:35:22.876Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CartRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Repository\\CartRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repository\\CartRepository.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Repository\\CartRepository.cs",
               "RelativeToolTip": "Backend\\Repository\\CartRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA3wBQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T03:34:15.741Z"
+              "WhenOpened": "2025-08-11T03:34:15.741Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -175,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Card.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Extranel\\Niron\\GadgetHUB\\Backend\\Entity\\Card.cs",
               "RelativeDocumentMoniker": "Backend\\Entity\\Card.cs",

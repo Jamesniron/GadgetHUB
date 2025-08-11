@@ -1,4 +1,5 @@
 ﻿using Backend.Interface;
+using static Backend.Repository.CartRepository;
 
 namespace Backend.Service
 {
@@ -20,7 +21,7 @@ namespace Backend.Service
       await _cardRepository.AddToCartAsync(card);
     }
 
-    public async Task<List<Entity.Product>> GetCartByUserIdAsync(Guid userId)
+    public async Task<List<CardResponse>> GetCartByUserIdAsync(Guid userId)
     {
       return await _cardRepository.GetCartByUserIdAsync(userId);
     }

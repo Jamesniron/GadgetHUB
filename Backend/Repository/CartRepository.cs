@@ -32,18 +32,6 @@ namespace Backend.Repository
       await _setting.SaveChangesAsync();
     }
 
-    public async Task<List<Product>> GetCartByUserIdAsync(Guid userId)
-    {
-      var checkcard = await _setting.Cart
-         .Include(c => c.Product)
-         .Where(c => c.UserId == userId)
-         .ToListAsync();
-      if (checkcard == null || !checkcard.Any())
-      {
-        return new List<Product>();
-      }
-      return checkcard.Select(c => c.Product).ToList();
-    }
 
     public async Task<bool> RemoveCardAsync(Guid cardId)
     {
@@ -53,5 +41,51 @@ namespace Backend.Repository
       int result = await _setting.SaveChangesAsync();
       return result > 0;
     }
+    public async Task<List<CardResponse>> GetCartByUserIdAsync(Guid userId)
+    {
+      var checkcard = await _setting.Cart
+          .Include(c => c.Product)
+          //.ThenInclude(p => p.Images) 
+          .Where(c => c.UserId == userId)
+          .ToListAsync();
+
+      if (!checkcard.Any())
+      {
+        return new List<CardResponse>
+        {
+            new CardResponse
+            {
+                Id = Guid.Empty,
+                ProductId = Guid.Empty,
+                Name = "No products in cart",
+                Price = 0,
+                Description = "Your cart is empty.",
+                ImageUrl = new List<ProductImage>()
+            }
+        };
+      }
+
+      return checkcard.Select(c => new CardResponse
+      {
+        Id = c.Id,
+        ProductId = c.Product.Id,
+        Name = c.Product.Name,
+        Price = c.Product.Price,
+        Description = c.Product.Description,
+        //ImageUrl = c.Product.Images // assuming navigation property is called Images
+      }).ToList();
+    }
+
+
+    public class CardResponse
+    {
+      public Guid Id { get; set; }
+      public Guid ProductId { get; set; }
+      public string Name { get; set; }
+      public int Price { get; set; }
+      public string Description { get; set; }
+      public ICollection<ProductImage>? ImageUrl { get; set; } = [];
+    }
+
   }
 }

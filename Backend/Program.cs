@@ -42,7 +42,8 @@ builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IPhotoService, cloudinaryService>();
-
+builder.Services.AddScoped<ICardRepository, CartRepository>();
+builder.Services.AddScoped<ICardService, CardService>();
 
 builder.Services.AddSingleton(sp => sp.GetRequiredService<IOptions<EmailConfig>>().Value);
 var app = builder.Build();
